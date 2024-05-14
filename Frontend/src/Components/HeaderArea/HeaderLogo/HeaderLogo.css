@@ -1,0 +1,17 @@
+.HeaderLogo > a {
+    text-decoration: none;
+	display: flex;
+    align-items: center;
+    color: #ff9f00;
+    margin: 0 25px;
+
+    .headerLogoImg{
+        margin-right: 10px;
+    }
+
+    .headerLogoTitle{
+        text-decoration: none;
+        border: 0;
+        color: white;
+    }
+}

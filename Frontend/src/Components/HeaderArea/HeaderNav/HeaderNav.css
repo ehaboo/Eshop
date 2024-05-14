@@ -1,0 +1,38 @@
+.HeaderNav {
+	display: flex;
+    justify-content: space-evenly;
+
+    .navItem {
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: white;
+    }
+
+    .navItemLineOne{
+        font-size: 10px;
+    }
+
+    .navItemLineTwo{
+        font-size: 13px;
+        font-weight: 800;
+    }
+
+    .itemBasket {
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-right: 50px;
+        margin-left: 10px;
+
+        a {
+            color: white;
+        }
+    }
+
+    .navBasketCount {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
