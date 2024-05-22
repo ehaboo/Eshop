@@ -2,6 +2,10 @@
 	display: flex;
     justify-content: space-evenly;
 
+    .loginItem{
+        display: none;
+    }
+
     .navItem {
         display: inline-flex;
         flex-direction: column;
@@ -34,5 +38,11 @@
     .navBasketCount {
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    @media (min-width: 450px) {
+        .loginItem{
+            display: block;
+        }
     }
 }
