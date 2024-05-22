@@ -4,6 +4,10 @@
     align-items: center;
     color: #ff9f00;
     margin: 0 25px;
+    
+    h2{
+        display: none;
+    }
 
     .headerLogoImg{
         margin-right: 10px;
@@ -13,5 +17,11 @@
         text-decoration: none;
         border: 0;
         color: white;
+    }
+
+    @media (min-width: 450px){
+        h2{
+        display: block;
+        }
     }
 }
